@@ -1,6 +1,6 @@
 const CACHE_NAME = "servis-app-v1";
 const urlsToCache = [
-  "Aplikasi password.html",
+  "index.html",
   "manifest.json",
   "icon-192.png",
   "icon-512.png"
