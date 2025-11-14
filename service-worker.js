@@ -1,6 +1,6 @@
 const CACHE_NAME = "servis-app-v1";
 const urlsToCache = [
-  "index.html",
+  "https://aisyah866.github.io/Data-laporan-service/",
   "manifest.json",
   "icon-192.png",
   "icon-512.png"
