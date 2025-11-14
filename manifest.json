@@ -2,7 +2,7 @@
   "name": "Aplikasi Service Elektronik",
   "short_name": "ServisKu",
   "description": "Aplikasi laporan dan manajemen service elektronik.",
-  "start_url": "index.html",
+  "start_url": "https://aisyah866.github.io/Data-laporan-service/",
   "display": "standalone",
   "background_color": "#f0f2f5",
   "theme_color": "#007bff",
