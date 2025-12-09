@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+if(localStorage.getItem("login") !== "true"){
+  window.location.href = "login.html";
+}
+</script>
   <meta charset="utf-8">
   <title>🔧 Laporan Service mhmd imron s channel </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +31,15 @@
 </head>
 <body>
   <h2>MHMD IMRON S CHANNEL Laporan Service</h2>
-
+<button onclick="logout()" style="float:right;background:#dc3545">LOGOUT</button>
+<script>
+function logout(){
+  if(confirm("Keluar dari aplikasi?")){
+    localStorage.removeItem("login");
+    window.location.href = "login.html";
+  }
+}
+</script>
   <form id="serviceForm" autocomplete="off">
     <input name="nama" id="nama" placeholder="Nama Pelanggan" required>
     <input name="kontak" id="kontak" placeholder="Nomor Kontak" required>
