@@ -31,15 +31,6 @@ if(localStorage.getItem("login") !== "true"){
 </head>
 <body>
   <h2>MHMD IMRON S CHANNEL Laporan Service</h2>
-<button onclick="logout()" style="float:right;background:#dc3545">LOGOUT</button>
-<script>
-function logout(){
-  if(confirm("Keluar dari aplikasi?")){
-    localStorage.removeItem("login");
-    window.location.href = "login.html";
-  }
-}
-</script>
   <form id="serviceForm" autocomplete="off">
     <input name="nama" id="nama" placeholder="Nama Pelanggan" required>
     <input name="kontak" id="kontak" placeholder="Nomor Kontak" required>
@@ -185,4 +176,13 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 </body>
+<button onclick="logout()" style="float:right;background:#dc3545">LOGOUT</button>
+<script>
+function logout(){
+  if(confirm("Keluar dari aplikasi?")){
+    localStorage.removeItem("login");
+    window.location.href = "login.html";
+  }
+}
+</script>
 </html>
